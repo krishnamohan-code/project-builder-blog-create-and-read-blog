@@ -1,6 +1,6 @@
 package dao;
 
-import model.User;
+import org.apache.catalina.User;
 
 public interface UserDaoInterface {
 	int signUp(User user);
